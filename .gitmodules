@@ -1,0 +1,4 @@
+[submodule "mtheme"]
+	path = mtheme
+	url = https://github.com/matze/mtheme.git
+	branch = master

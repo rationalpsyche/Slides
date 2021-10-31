@@ -1,0 +1,38 @@
+
+---
+title:
+- Quick Slides 
+author:
+- Nicolò Fornari
+theme:
+- Metropolis 
+date:
+- November 1, 2021
+
+---
+
+# Introduction to DNS
+
+```
+$ dig github.com
+
+; <<>> DiG 9.16.15-Debian <<>> github.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41660
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;github.com.			IN	A
+
+;; ANSWER SECTION:
+github.com.		47	IN	A	140.82.121.3
+
+;; Query time: 4 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sun Oct 31 15:58:08 GMT 2021
+;; MSG SIZE  rcvd: 55
+
+``` 
